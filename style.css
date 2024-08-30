@@ -1,0 +1,253 @@
+body{
+   margin: 0px;
+    padding: 0px;
+    
+    
+}
+*{
+    font-family: arial;
+}
+div.maincontent{
+   height: 1000px;
+    background-image: url(photo/background.jpg);
+   background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+div.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6)
+}
+div.joinnavbar{
+    background-color: black
+}
+div.navbar a{
+     color: white;
+    margin: -50px;
+    
+}
+
+div.navbar a.join{
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+div.details{
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}
+div.details button{
+     padding: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: white;
+    color: darkturquoise;
+}
+div.t{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    
+    
+}
+div.t img{
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    
+}
+div.maingame{
+    display: flex;
+        justify-content: center;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+div.maingame button{
+    padding: 10px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+div.maingame img{
+margin-right: -100;
+border-radius: 20px;
+
+}
+div.posts{
+    
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+div.post{
+    margin: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+div.post h3,div.post p,div.post h5{
+    padding-right: 10px;
+    padding-left: 10;
+}
+div.post p,div.post h5{
+    display: inline-block
+}
+div.post h1,div.postcontent p{
+   text-align: center 
+}
+div.post p{
+    font-size: 15px;
+    text-align: left;
+}
+div.post1 div.img,div.post2 div.img,div.post3 div.img{
+    background-image: url(photo/post1.jpg);
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    
+}
+div.post2 div.img{
+     background-image: url(photo/post2.jpg);
+}
+div.post3 div.img{
+     background-image: url(photo/post3.jpg);
+}
+div.testis{
+     display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+div.test h1{
+    text-align: center;
+    margin-bottom: 80px;
+}
+div.testi{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+div.testi div.img{
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    margin: auto;
+    border-radius: 100px;
+    margin-top: -50;
+        background-image: url(photo/man.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    
+}
+div.pricing h2{
+    text-align: center;
+}
+div.prices{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+div.price{
+    width: 30%;
+    background-color: darkcyan;
+    color: white;
+    margin: 8px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 8px;
+}
+div.price button{
+        padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    
+}
+div.planprice{
+    background-color: darkblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.planprice h3{
+    margin: 0px;
+}
+.joinform{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    border: 1px solid black;
+ border-radius: 10px;
+    margin-top: 50px
+    }
+.joinform .form, .joinfrom .image{
+    width: 50%;
+    margin:  190px;
+}
+div.image{
+    background-image: url(photo/fantasy1.webp);
+    justify-content: space-around;
+    display: flex;
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+    padding: 80px;
+    width: 900px;
+    border-radius: 10px;
+}
+form inbut, form button{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+}
+form button {
+background-color: blue;
+    color: white;
+}
+.footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px
+}
